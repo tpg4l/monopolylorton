@@ -25,20 +25,22 @@
             height: auto;
         }
         nav {
-	    display: flex;
+            display: flex;
+            flex-wrap: wrap;
             background: #333;
             color: white;
-            display: flex;
-	    align-content: center;
             justify-content: center;
             padding: 10px 0;
         }
         nav a {
             color: white;
             text-decoration: none;
-            margin: 0 15px;
+            margin: 5px;
             padding: 5px 10px;
             border-radius: 5px;
+            flex: 1;
+            max-width: 150px;
+            text-align: center;
         }
         nav a:hover {
             background: #4CAF50;
