@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #f5f6f7;
+    color: #222;
+    line-height: 1.6;
+}
+
+.navContainer {
+    width: 100%;
+    height: 90px;
+    padding: 0 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #1f2933;
+}
+
+.navContainer img {
+    height: 65px;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+
+    padding: 8px 14px;
+    border-radius: 6px;
+
+    color: #ffffff;
+    background-color: transparent;
+
+    transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+nav a.active {
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
+.pageContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.landing {
+    height: 55vh;
+    margin-top: 32px;
+
+    background-image: url("img/boardBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.aboutLanding {
+    height: 55vh;
+    margin-top: 32px;
+
+    background-image: url("img/trophies.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.landingOverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landingContent {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    padding: 32px;
+    color: white;
+}
+
+.foregroundImage {
+    width: 260px;
+    border-radius: 12px;
+}
+
+.landingText h2 {
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.landingText p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.details {
+    margin: 48px 0;
+    padding: 32px;
+
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.details h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #4caf50;
+    margin-bottom: 16px;
+}
+
+.details h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.regButton {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.card {
+    width: 300px;
+}
+
+.photo {
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+/* PHOTOS FOR PHOTOS PAGE */
+
+.one {
+    background-image: url("https://uniim1.shutterfly.com/render/00-K1yM6txMRGdCr15fx9gCyCR0siQZZYqblDTVbzDusDS6J0GkIt1dFjt-Tan9Wvzo?cn=THISLIFE&res=large&ts=1546907412");
+}
+
+.two {
+    background-image: url("https://uniim1.shutterfly.com/render/00-K1yM6txMRGdCr15fx9gCyCR0siQZZYqblDTVbzDusDSWg3EEdbPCHZ7-AoOm55dr?cn=THISLIFE&res=large&ts=1546907480");
+}
+
+.three {
+    background-image: url("https://uniim1.shutterfly.com/render/00-K1yM6txMRGdCr15fx9gCyCR0siQZZYqblDTVbzDusDTFl6ro3HfSPVh1GW_lHwZG?cn=THISLIFE&res=large&ts=1546907939");
+}
+
+.four {
+    background-image: url("https://uniim1.shutterfly.com/render/00-K1yM6txMRGdCr15fx9gCyCR0siQZZYqblDTVbzDusDT-sFzhVuA04wdmBO7uSjh7?cn=THISLIFE&res=medium&ts=1546906860");
+}
+
+
+.five {
+    background-image: url("https://uniim1.shutterfly.com/render/00-K1yM6txMRGdCr15fx9gCyCR0siQZZYqblDTVbzDusDTVdeulY1fFpOzXxbz9E0uN?cn=THISLIFE&res=large&ts=1546906832");
+}
+
+
+.six {
+    background-image: url("img/2024img1.jpg");
+}
+
+
+.seven {
+    background-image: url("https://uniim1.shutterfly.com/render/00-K1yM6txMRGdCr15fx9gCyCR0siQZZYqblDTVbzDusDQQKq3QPgyodylj8S17yOWW?cn=THISLIFE&res=large&ts=1546907780");
+}
+
+
+.eight {
+    background-image: url("https://uniim1.shutterfly.com/render/00-K1yM6txMRGdCr15fx9gCyCR0siQZZYqblDTVbzDusDS_hjMenZxTfrnv8QJNrOT7?cn=THISLIFE&res=large&ts=1546907702");
+}
+
+
+.nine {
+    background-image: url("https://uniim1.shutterfly.com/render/00-K1yM6txMRGdCr15fx9gCyCR0siQZZYqblDTVbzDusDThRVjQ6sQpCA1J35dshIQM?cn=THISLIFE&res=large&ts=1546907586");
+}
+
+
+/* photos end here */
+
+.city {
+    background-color: skyblue;
+    text-align: right;
+    padding: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 25px;
+}
+
+/* Mobile compatibility */
+@media (max-width: 768px) {
+    .navContainer {
+        padding: 0 24px;
+        height: auto;
+        flex-direction: column;
+        gap: 12px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .landingContent {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foregroundImage {
+        width: 200px;
+    }
+
+    .landingText h2 {
+        font-size: 2rem;
+    }
+
+    .landingText p {
+        font-size: 1.1rem;
+    }
+}
